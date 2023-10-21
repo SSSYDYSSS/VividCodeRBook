@@ -6,7 +6,7 @@ book:
   author: "Dongyue Yu"
   favicon: VividCodeR_rlogo.png
   description: VividCodeR User Manual.
-  keyword: VividCodeR, Data Science, Data Engineering, Data Visualization
+  keyword: VividCodeR, Data Engineering, Data Visualization, Customizing Images in R
   url: https://sssydysss.github.io/VividCodeRBook/
   date: "2023/10/18"
   sidebar: 
