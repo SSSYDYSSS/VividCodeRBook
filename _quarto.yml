@@ -1,0 +1,44 @@
+project:
+  type: book
+
+book:
+  title: "VividCodeRBook"
+  author: "Dongyue Yu"
+  favicon: VividCodeR_rlogo.png
+  description: VividCodeR User Manual.
+  keyword: VividCodeR, Data Science, Data Engineering, Data Visualization
+  url: https://sssydysss.github.io/VividCodeRBook/
+  date: "2023/10/18"
+  sidebar: 
+    background: "#d6edee"
+    logo: VividCodeR_rlogo.png
+    search: true
+  repo-url: https://github.com/SSSYDYSSS/VividCodeRBook
+  repo-branch: main
+  repo-actions: [edit, issue, source]
+  sharing: [twitter, facebook, linkedin]
+  image: VividCodeR_rlogo.png
+  comments:
+    giscus:
+      repo: SSSYDYSSS/VividCodeRBook
+  open-graph:
+    image: https://github.com/SSSYDYSSS/CodeAestheticsRBook/blob/main/VividCodeR_rlogo.png
+    description: R package VividCodeR.
+
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    code-fold: false
+    css: custom.css
+    backgroundcolor: "#fefefb"
+
+execute:
+  freeze: auto
