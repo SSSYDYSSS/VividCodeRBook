@@ -10,7 +10,7 @@ book:
   url: https://sssydysss.github.io/VividCodeRBook/
   date: "2023/10/18"
   sidebar: 
-    background: "#bfd4d4"
+    background: "#c9e3e4"
     logo: VividCodeR_rlogo.png
     search: true
   repo-url: https://github.com/SSSYDYSSS/VividCodeRBook
@@ -38,7 +38,7 @@ format:
     theme: cosmo
     code-fold: false
     css: custom.css
-    backgroundcolor: "#f6f9f9"
+    backgroundcolor: "#f7fbfb"
 
 execute:
   freeze: auto
